@@ -16,6 +16,7 @@ class CalendarDatePicker2Config {
     this.lastMonthIcon,
     this.nextMonthIcon,
     this.controlsTextStyle,
+    this.toggleIcon,
     this.dayTextStyle,
     this.selectedDayTextStyle,
     this.selectedDayHighlightColor,
@@ -72,6 +73,9 @@ class CalendarDatePicker2Config {
   /// Custom text style for calendar mode toggle control
   final TextStyle? controlsTextStyle;
 
+  /// Custom controls picker mode toggle icon
+  final Widget? toggleIcon;
+
   /// Custom text style for calendar day text
   final TextStyle? dayTextStyle;
 
@@ -112,6 +116,7 @@ class CalendarDatePicker2Config {
     Widget? lastMonthIcon,
     Widget? nextMonthIcon,
     TextStyle? controlsTextStyle,
+    Widget? toggleIcon,
     TextStyle? dayTextStyle,
     TextStyle? selectedDayTextStyle,
     Color? selectedDayHighlightColor,
@@ -136,6 +141,7 @@ class CalendarDatePicker2Config {
       lastMonthIcon: lastMonthIcon ?? this.lastMonthIcon,
       nextMonthIcon: nextMonthIcon ?? this.nextMonthIcon,
       controlsTextStyle: controlsTextStyle ?? this.controlsTextStyle,
+      toggleIcon: toggleIcon ?? this.toggleIcon,
       dayTextStyle: dayTextStyle ?? this.dayTextStyle,
       selectedDayTextStyle: selectedDayTextStyle ?? this.selectedDayTextStyle,
       selectedDayHighlightColor:
@@ -166,6 +172,7 @@ class CalendarDatePicker2WithActionButtonsConfig
     Widget? lastMonthIcon,
     Widget? nextMonthIcon,
     TextStyle? controlsTextStyle,
+    Widget? toggleIcon,
     TextStyle? dayTextStyle,
     TextStyle? selectedDayTextStyle,
     Color? selectedDayHighlightColor,
@@ -196,6 +203,7 @@ class CalendarDatePicker2WithActionButtonsConfig
           lastMonthIcon: lastMonthIcon,
           nextMonthIcon: nextMonthIcon,
           controlsTextStyle: controlsTextStyle,
+          toggleIcon: toggleIcon,
           dayTextStyle: dayTextStyle,
           selectedDayTextStyle: selectedDayTextStyle,
           selectedDayHighlightColor: selectedDayHighlightColor,
@@ -245,6 +253,7 @@ class CalendarDatePicker2WithActionButtonsConfig
     Widget? lastMonthIcon,
     Widget? nextMonthIcon,
     TextStyle? controlsTextStyle,
+    Widget? toggleIcon,
     TextStyle? dayTextStyle,
     TextStyle? selectedDayTextStyle,
     Color? selectedDayHighlightColor,
@@ -277,6 +286,7 @@ class CalendarDatePicker2WithActionButtonsConfig
       lastMonthIcon: lastMonthIcon ?? this.lastMonthIcon,
       nextMonthIcon: nextMonthIcon ?? this.nextMonthIcon,
       controlsTextStyle: controlsTextStyle ?? this.controlsTextStyle,
+      toggleIcon: toggleIcon ?? this.toggleIcon,
       dayTextStyle: dayTextStyle ?? this.dayTextStyle,
       selectedDayTextStyle: selectedDayTextStyle ?? this.selectedDayTextStyle,
       selectedDayHighlightColor:
